@@ -12,14 +12,14 @@ BOT_NAME = 'jxw_demo'
 SPIDER_MODULES = ['jxw_demo.spiders']
 NEWSPIDER_MODULE = 'jxw_demo.spiders'
 
-DATABASE = {
-    'drivername': 'postgresql',
-    'host': 'localhost',
-    'port': '5432',
-    'username': 'shahriar',
-    'password': 'bjit2021',
-    'database': 'jxw_scrapy'
-}
+# DATABASE = {
+#     'drivername': 'postgresql',
+#     'host': 'localhost',
+#     'port': '5432',
+#     'username': 'shahriar',
+#     'password': 'bjit2021',
+#     'database': 'jxw_scrapy'
+# }
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -72,9 +72,9 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
-ITEM_PIPELINES = {
-   'jxw_demo.pipelines.JxwPipeline': 300,
-}
+# ITEM_PIPELINES = {
+#    'jxw_demo.pipelines.JxwPipeline': 300,
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
